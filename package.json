@@ -4,7 +4,10 @@
   "description": "Platzigram Database Client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard"
+  },
+  "standard": {
+    "parser": "babel-eslint"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/hecto932/platzigram-db#readme",
   "devDependencies": {
+    "babel-eslint": "^7.1.0",
     "standard": "^8.5.0"
   }
 }
