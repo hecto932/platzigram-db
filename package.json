@@ -4,7 +4,8 @@
   "description": "Platzigram Database Client",
   "main": "index.js",
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "test": "npm run lint && ava"
   },
   "standard": {
     "parser": "babel-eslint"
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/hecto932/platzigram-db#readme",
   "devDependencies": {
+    "ava": "^0.16.0",
     "babel-eslint": "^7.1.0",
     "standard": "^8.5.0"
   }
