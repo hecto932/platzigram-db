@@ -1,0 +1,22 @@
+{
+  "name": "platzigram-db",
+  "version": "1.0.0",
+  "description": "Platzigram Database Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hecto932/platzigram-db.git"
+  },
+  "author": "Hector Flores <hecto932@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hecto932/platzigram-db/issues"
+  },
+  "homepage": "https://github.com/hecto932/platzigram-db#readme",
+  "devDependencies": {
+    "standard": "^8.5.0"
+  }
+}
