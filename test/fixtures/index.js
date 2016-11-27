@@ -6,7 +6,7 @@ const fixtures = {
   getImage () {
     return {
       description: 'an #awesome picture with #tags #platzi',
-      url: `http://platzigram.test/${uuid.v4()}.jpg`,
+      url: `https://platzigram.test/${uuid.v4()}.jpg`,
       likes: 0,
       liked: false,
       userId: uuid.uuid()
@@ -17,14 +17,15 @@ const fixtures = {
     while (n-- > 0) {
       images.push(this.getImage())
     }
+
     return images
   },
   getUser () {
     return {
       name: 'A random user',
-      username: `user_${uuid.uuid()}`,
+      username: `user_${uuid.v4()}`,
       password: uuid.uuid(),
-      email: `${uuid.v4()}@domain.test`
+      email: `${uuid.v4()}@platzi.test`
     }
   }
 }
