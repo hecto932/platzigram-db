@@ -3,10 +3,12 @@
 const Db = require('.')
 const config = require('./config')
 
-const db = new Db(config)
+config.db.setup = true
+
+const db = new Db(config.db)
 
 db.connect()
-    .then(conn => {
-        console.log('Database setup')
-        process.exit(0)
-    })
+  .then(conn => {
+    console.log('Database setup')
+    process.exit(0)
+  })
