@@ -4,7 +4,8 @@ const config = {
   db: {
     host: 'localhost',
     port: 28015,
-    db: 'platzigram'
+    db: 'platzigram',
+    setup: true
   }
 }
 
